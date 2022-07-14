@@ -1,10 +1,11 @@
 import { gpl } from "@apollo/client";
 
-export const QUERY_USERS = gpl`
-query getUsers {
-    users {
+export const QUERY_USER = gpl`
+query getUser {
+    user {
         _id
+        username
         email
-        password
+        savedBooks
     }
 }`;
