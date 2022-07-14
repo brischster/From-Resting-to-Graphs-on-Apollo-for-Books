@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Brian Kernighan",
+    "email": "bk@gmail.com",
+    "password": "tomtommmy817"
+  },
+  {
+    "name": "Max Kanat-Alexander",
+    "email": "maxi@gmail.com",
+    "password": "maxtommmy817"
+  },
+  {
+    "name": "Amiko",
+    "email": "amiko@gmail.com",
+    "password": "amikotomtommmy817"
+  },
+  {
+    "name": "Kent Beck",
+    "email": "kb@gmail.com",
+    "password": "kenttomtommmy817"
+  },
+  {
+    "name": "Edward V. Berard",
+    "email": "eddie@gmail.com",
+    "password": "eddietomtommmy817"
+  },
+  {
+    "name": "Alan Kay",
+    "email": "kaykay@gmail.com",
+    "password": "kaytomtommmy817"
+  }
+]
