@@ -7,17 +7,17 @@ import {
   Button,
 } from "react-bootstrap";
 import { useQuery } from "@apollo/client";
-import { QUERY_USER } from "../utils/queries";
+import { QUERY_USER, QUERY_BOOKS } from "../utils/queries";
 
 import { getMe, deleteBook } from "../utils/API";
 import Auth from "../utils/auth";
 import { removeBookId } from "../utils/localStorage";
 
 // const SavedBooks = () => {
-//   const {loading, data } = useQuery(QUERY_USER);
+//   const { loading, data } = useQuery(QUERY_USER);
 
-//   const
-// }
+//   const profile = data?.profile || [];
+// };
 
 const SavedBooks = () => {
   const [userData, setUserData] = useState({});
