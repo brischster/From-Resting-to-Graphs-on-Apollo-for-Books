@@ -8,8 +8,9 @@ const resolvers = {
     //   return User.find();
     // },
 
-    User: async (parent, { userId }) => {
-      return User.findOne({ _id: userId });
+    User: async (parent, { userId }, context) => {
+      console.log(context.user);
+      return User.findOne({ _id: context.user._id });
     },
   },
 
@@ -37,7 +38,7 @@ const resolvers = {
     saveBook: async (parent, { userId, bookId }, context) => {
       if (context.user) {
         return User.findOneAndUpdate(
-          { _id: userId },
+          { _id: context.user._id },
           {
             $addToSet: { savedBooks: bookId },
           },
